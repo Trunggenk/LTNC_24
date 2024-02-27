@@ -9,4 +9,5 @@ add_executable(Baitaphacckerrank main.cpp
         all.h
         arrayintroduction.cpp
         plusminus.cpp
-        SherlockandArray.cpp)
+        SherlockandArray.cpp
+        "Find Digits .cpp")
