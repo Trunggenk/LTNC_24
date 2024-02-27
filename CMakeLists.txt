@@ -12,4 +12,5 @@ add_executable(Baitaphacckerrank main.cpp
         SherlockandArray.cpp
         "Find Digits .cpp"
         "Divisible Sum Pairs.cpp"
-        Strings.cpp)
+        Strings.cpp
+        Staircase.cpp)
