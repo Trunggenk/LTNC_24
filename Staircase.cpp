@@ -6,10 +6,9 @@ using namespace std;
 
 void staircase(int n)
 {
-    for(int i =0 ; i=n ; i++) {
-        for (int j = -n; j = -1; j++) {
-            if (j > i - n-1) cout << " ";
-            if (j <= j - n-1) cout << "#";
+    for(int i=1; i<=n ; i++) {
+        for (int j=1; j <=n; j++) {
+            if (j > -i + n) cout << "#"; else cout<<" ";
         }
         cout<<endl;
     }
