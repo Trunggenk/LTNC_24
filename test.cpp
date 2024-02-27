@@ -5,6 +5,6 @@
 using namespace std;
 int main()
 {
-    string a="A";
+    string a="z";
     cout<< (int)a[0];
 }

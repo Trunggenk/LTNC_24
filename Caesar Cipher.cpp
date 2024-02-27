@@ -1,18 +1,22 @@
-//
-// Created by Trung on 2/27/2024.
-//
 #include "all.h"
-string caesarCipher(string s, int k) {
+using namespace std;
 
+string caesarCipher(string s, int k) {
+    string result = "";
+    for (char c : s) {
+        if (isalpha(c)) {
+            char base = islower(c) ? 'a' : 'A';
+            c = static_cast<char>(base + (c - base + k) % 26);
+        }
+        result += c;
+    }
+    return result;
 }
 
-int main()
-{
-string s;
-cin>>s;
-cin.ignore();
-int k;
-cin>>k;
-cout<<caesarCipher(s,k);
-
+int main() {
+    string s;
+    cin >> s;
+    int k;
+    cin >> k;
+    cout << caesarCipher(s, k);
 }
