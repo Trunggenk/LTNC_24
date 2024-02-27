@@ -4,7 +4,7 @@
 
 #ifndef BAITAPHACCKERRANK_ALL_H
 #define BAITAPHACCKERRANK_ALL_H
-
+using namespace std;
 
 #include <iostream>
 #include <cmath>
@@ -13,4 +13,5 @@
 #include <iostream>
 #include <algorithm>
 #include <iomanip>
+#include "string"
 #endif //BAITAPHACCKERRANK_ALL_H

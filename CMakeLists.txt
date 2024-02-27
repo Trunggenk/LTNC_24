@@ -13,4 +13,6 @@ add_executable(Baitaphacckerrank main.cpp
         "Find Digits .cpp"
         "Divisible Sum Pairs.cpp"
         Strings.cpp
-        Staircase.cpp)
+        Staircase.cpp
+        "Time Conversion.cpp"
+        "CamelCase .cpp")
