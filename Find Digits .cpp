@@ -29,3 +29,4 @@ int main()
         cout << findDigits(n) << endl;}
 
 }
+1
