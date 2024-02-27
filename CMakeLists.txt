@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.27)
+project(Baitaphacckerrank)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(Baitaphacckerrank main.cpp
+        BasicDataTypes1.cpp
+        Functions.cpp
+        all.h
+        arrayintroduction.cpp
+        plusminus.cpp
+        SherlockandArray.cpp)
