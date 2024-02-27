@@ -15,7 +15,7 @@ string hackerrankInString(string s) {
         }
         locationString++;
     }
-    if(locationTemp==lenTemp-1) return "YES"; else return "NO";
+    if(locationTemp==lenTemp) return "YES"; else return "NO";
 
 }
 int main()
@@ -24,5 +24,4 @@ int main()
     cin>>s;
     cout<< hackerrankInString(s);
 
-return 0;
 }
