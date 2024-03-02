@@ -19,4 +19,5 @@ add_executable(Baitaphacckerrank main.cpp
         "HackerRank in a String.cpp"
         "Caesar Cipher.cpp"
         "Drawing Book.cpp"
-        "Equalize the Array.cpp")
+        "Equalize the Array.cpp"
+        palindromeIndex.cpp)
