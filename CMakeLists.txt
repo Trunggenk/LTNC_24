@@ -20,4 +20,5 @@ add_executable(Baitaphacckerrank main.cpp
         "Caesar Cipher.cpp"
         "Drawing Book.cpp"
         "Equalize the Array.cpp"
-        palindromeIndex.cpp)
+        palindromeIndex.cpp
+        "Variable Sized Arrays.cpp")
