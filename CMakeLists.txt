@@ -22,4 +22,5 @@ add_executable(Baitaphacckerrank main.cpp
         "Equalize the Array.cpp"
         palindromeIndex.cpp
         "Variable Sized Arrays.cpp"
-        "Mystery Number.cpp")
+        "Mystery Number.cpp"
+        "Between Two Sets .cpp")
