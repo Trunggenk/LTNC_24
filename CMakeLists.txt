@@ -21,4 +21,5 @@ add_executable(Baitaphacckerrank main.cpp
         "Drawing Book.cpp"
         "Equalize the Array.cpp"
         palindromeIndex.cpp
-        "Variable Sized Arrays.cpp")
+        "Variable Sized Arrays.cpp"
+        "Mystery Number.cpp")
