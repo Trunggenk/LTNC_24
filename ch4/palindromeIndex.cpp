@@ -1,7 +1,7 @@
 //
 // Created by Trung on 3/1/2024.
 //
-#include "all.h";
+#include "../all.h";
 bool isPalindromeIndex(string s)
 {
     int stringLength=s.length();

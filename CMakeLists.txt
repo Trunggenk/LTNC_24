@@ -15,13 +15,13 @@ add_executable(Baitaphacckerrank ch1/main.cpp
         ch3/Staircase.cpp
         "ch3/Time Conversion.cpp"
         "ch3/CamelCase .cpp"
-        test.cpp
+        ch4/test.cpp
         "ch3/HackerRank in a String.cpp"
         "ch3/Caesar Cipher.cpp"
-        "Drawing Book.cpp"
-        "Equalize the Array.cpp"
-        palindromeIndex.cpp
-        "Variable Sized Arrays.cpp"
-        "Mystery Number.cpp"
+        "ch4/Drawing Book.cpp"
+        "ch4/Equalize the Array.cpp"
+        ch4/palindromeIndex.cpp
+        "ch4/Variable Sized Arrays.cpp"
+        "ch4/Mystery Number.cpp"
         "ch4/Between Two Sets .cpp"
-        "Falling Rocks.cpp")
+        "ch4/Falling Rocks.cpp")

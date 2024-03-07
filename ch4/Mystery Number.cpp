@@ -1,7 +1,7 @@
 //
 // Created by Trung on 3/4/2024.
 //
-#include "all.h"
+#include "../all.h"
 
 int main()
 {

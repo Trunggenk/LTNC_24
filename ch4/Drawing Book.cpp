@@ -1,7 +1,7 @@
 //
 // Created by Trung on 2/28/2024.
 //
-#include "all.h"
+#include "../all.h"
 int pageCount(int n , int p)
 {
     int step = floor(n/2)+1;

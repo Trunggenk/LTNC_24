@@ -1,7 +1,7 @@
 //
 // Created by Trung on 2/28/2024.
 //
-#include "all.h"
+#include "../all.h"
 int equalizeArray(vector<int> arr) {
     int arrayFrequency[102];
     int len = arr.size();
