@@ -1,4 +1,4 @@
-#include "all.h"
+#include "../all.h"
 using namespace std;
 
 string caesarCipher(string s, int k) {

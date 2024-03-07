@@ -2,7 +2,7 @@
 // Created by Trung on 2/27/2024.
 //
 
-#include "all.h"
+#include "../all.h"
 using namespace std;
 string timeConversion(string s)
 {
