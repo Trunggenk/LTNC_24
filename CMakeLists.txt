@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 3.27)
 project(Baitaphacckerrank)
 
 set(CMAKE_CXX_STANDARD 17)
-add_executable(Baitaphacckerrank main.cpp
-        BasicDataTypes1.cpp
-        Functions.cpp
+add_executable(Baitaphacckerrank ch1/main.cpp
+        ch1/BasicDataTypes1.cpp
+        ch1/Functions.cpp
         all.h
-        arrayintroduction.cpp
-        plusminus.cpp
-        SherlockandArray.cpp
+        ch1/arrayintroduction.cpp
+        ch1/plusminus.cpp
+        ch1/SherlockandArray.cpp
         "Find Digits .cpp"
         "Divisible Sum Pairs.cpp"
         Strings.cpp
@@ -23,5 +23,5 @@ add_executable(Baitaphacckerrank main.cpp
         palindromeIndex.cpp
         "Variable Sized Arrays.cpp"
         "Mystery Number.cpp"
-        "Between Two Sets .cpp"
+        "ch4/Between Two Sets .cpp"
         "Falling Rocks.cpp")
