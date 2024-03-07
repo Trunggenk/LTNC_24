@@ -9,8 +9,8 @@ add_executable(Baitaphacckerrank ch1/main.cpp
         ch1/arrayintroduction.cpp
         ch1/plusminus.cpp
         ch1/SherlockandArray.cpp
-        "ch3/ch2/Find Digits .cpp"
-        "ch3/ch2/Divisible Sum Pairs.cpp"
+        "ch2/Find Digits .cpp"
+        "ch2/Divisible Sum Pairs.cpp"
         ch3/Strings.cpp
         ch3/Staircase.cpp
         "ch3/Time Conversion.cpp"
