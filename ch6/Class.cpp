@@ -11,7 +11,6 @@ public:
     void set_age(int a) {
         age = a;
     }
-
     void set_standard(int s) {
         standard = s;
     }
