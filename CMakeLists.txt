@@ -19,4 +19,5 @@ add_executable(Baitaphacckerrank
         "ch5/Maps-STL .cpp"
         ch6/Structs.cpp
         ch6/Class.cpp
+        "ch6/Classes and Objects.cpp"
 )
