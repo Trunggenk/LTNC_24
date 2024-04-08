@@ -17,4 +17,6 @@ add_executable(Baitaphacckerrank
         ${SOURCES5}
         ch5/Sets-STL.cpp
         "ch5/Maps-STL .cpp"
+        ch6/Structs.cpp
+        ch6/Class.cpp
 )
