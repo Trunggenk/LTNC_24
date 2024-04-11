@@ -20,4 +20,5 @@ add_executable(Baitaphacckerrank
         ch6/Structs.cpp
         ch6/Class.cpp
         "ch6/Classes and Objects.cpp"
+        "ch6/Box It.cpp"
 )
