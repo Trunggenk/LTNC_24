@@ -21,4 +21,6 @@ add_executable(Baitaphacckerrank
         ch6/Class.cpp
         "ch6/Classes and Objects.cpp"
         "ch6/Box It.cpp"
+        "ch7/Binary Search.cpp"
+        "ch7/Binary Search.cpp"
 )
