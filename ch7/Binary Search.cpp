@@ -5,30 +5,22 @@
 using namespace std;
 
 int binarySearch(int arr[], int left, int right, int x) {
-    if (right >= left) {
-        int mid = left + (right - left) / 2;
+    int mid= (left+right)/2;
+    if(arr[mid]==x) return mid;
+    if(arr[mid] > x ) return binarySearch(arr,mid, right,x );
+    if(arr[mid] < x)  return binarySearch(arr, left ,mid, x);
 
-        if (arr[mid] == x)
-            return mid;
-
-        if (arr[mid] > x)
-            return binarySearch(arr, left, mid - 1, x);
-
-        return binarySearch(arr, mid + 1, right, x);
-    }
-
-    return -1;
 }
 
 int main()
 {
-int a[100];
+int arr[100];
 int n;
 cin>>n;
 int number=3;
-for(int i =1; i<=n; i++)
+for(int i =0; i<=n-1; i++)
 {
-    cin>>a[i];
+    cin>>arr[i];
 }
-cout<< binarySearch(a,0,n-1 , number);
+cout<< binarySearch(arr,0,n-1 , number);
 }

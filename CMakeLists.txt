@@ -23,4 +23,7 @@ add_executable(Baitaphacckerrank
         "ch6/Box It.cpp"
         "ch7/Binary Search.cpp"
         "ch7/Binary Search.cpp"
+        ch7/abcd.cpp
+        "ch7/The Power Sum.cpp"
+        ch7/test.cpp
 )
