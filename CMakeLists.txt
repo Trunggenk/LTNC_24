@@ -26,4 +26,5 @@ add_executable(Baitaphacckerrank
         ch7/abcd.cpp
         "ch7/The Power Sum.cpp"
         ch7/test.cpp
+        "ch7/Crossword Puzzle.cpp"
 )
